@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carmine Ruggiero - Portfolio</title>
+    <!-- Collegamento al file CSS esterno -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Carmine Ruggiero</h1>
+        <p>Studente Full Stack in formazione su Epicode 2026</p>
+        <nav>
+            <a href="#chi-sono">Chi sono?</a>
+            <a href="#competenze">Competenze</a>
+            <a href="#esperienze">Esperienze</a>
+            <a href="#progetti">Progetti</a>
+            <a href="#contattami">Contatti</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <!-- CHI SONO -->
+        <section id="chi-sono">
+            <h2>Chi sono</h2>
+            <div class="about-content">
+                <img src="assets/Io.jpeg" alt="Carmine Ruggiero" class="profile-img">
+            </div>
+            <p><strong><em>Mi chiamo Carmine Ruggiero; sono nato e cresciuto a Napoli, nel sud Italia.
+                        Ho 35 anni e vivo a Londra dal febbraio 2018.
+                        Mi considero una persona vivace, energica, paziente, affidabile, umile e organizzata, oltre che una gran lavoratrice.
+                        Confido nelle mie capacità comunicative; so adattarmi a qualsiasi ambiente di lavoro e personalizzare il servizio in base alle esigenze degli ospiti.
+                        Cerco sempre di affrontare ogni situazione con un atteggiamento e una mentalità positivi e professionali,
+                        senza mai perdere il sorriso o la compostezza.
+
+                        Ho sviluppato solide doti di leadership gestendo quotidianamente team fino a cinque persone,
+                        assicurandomi che ogni membro desse il meglio di sé e trasmettesse un'atmosfera positiva agli ospiti.
+                        Allo stesso tempo, amo lavorare in squadra, condividendo la stessa passione e lo stesso approccio al lavoro.
+                        Nel corso della mia carriera ho lavorato in ambienti dai ritmi sostenuti,
+                        migliorando notevolmente le mie capacità organizzative e la gestione dello stress.
+                        Nutro inoltre un forte interesse per lo sport e il benessere, la cucina, i viaggi e la scoperta di paesi e culture diverse,
+                        nonché per la crescita personale, leggendo biografie di persone di successo
+                        e guardando video di life coach.</em>
+                </strong>
+            </p>
+        </section>
+
+        <!-- COMPETENZE -->
+        <section id="competenze">
+            <h2>Competenze</h2>
+            <p class="section-subtitle">Le tecnologie su cui mi sento più sicuro al termine della prima settimana di
+                corso. Le percentuali sono auto-valutazioni.</p>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <h3>HTML semantico</h3>
+                    <p>Tag strutturali, attributi di base, form e validazione</p>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 85%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <h3>CSS</h3>
+                    <p>Selettori, pseudo-classi, box-model, fogli esterni, Google Fonts</p>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 75%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <h3>Git & GitHub</h3>
+                    <p>Init, add, commit, push, repository remoti, pubblicazione su GitHub Pages</p>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 65%;"></div>
+                </div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <h3>Linea di comando</h3>
+                    <p>Navigazione fra cartelle, gestione file, comandi base di git in bash e terminale</p>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 60%;"></div>
+                </div>
+            </div>
+        </section>
+
+      
+
+        <!-- PROGETTI -->
+        <section id="progetti">
+            <h2>Progetti</h2>
+            <p class="section-subtitle">I lavori realizzati durante le prime settimane di corso. Ogni link rimanda al
+                rispettivo repository.</p>
+
+            <div class="project-card highlight">
+                <div class="project-title">Pagina ricetta <span class="badge">New</span></div>
+                <p class="project-desc">Una pagina con titolo, ingredienti e procedura. Esercizio di markup semantico
+                    applicato a un contenuto reale.</p>
+                <a href="#" class="project-link">&#128065; Vedi su GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title">Card di presentazione</div>
+                <p class="project-desc">Un biglietto da visita digitale con nome, avatar e link ai social. Focus sui tag
+                    semantici, testi e immagini.</p>
+                <a href="#" class="project-link">&#128065; Vedi su GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-title">Portfolio personale</div>
+                <p class="project-desc">Questa pagina. L'indice dei miei migliori lavori; dai primi passi in HTML alla
+                    stilizzazione avanzata in CSS, fino alla pubblicazione su GitHub Pages.</p>
+                <a href="#" class="project-link">&#128065; Vedi su GitHub</a>
+            </div>
+
+            <div class="more-projects">
+                <a href="#">&rarr; Tutti i progetti in dettaglio</a>
+            </div>
+        </section>
+
+        <!-- CONTATTAMI -->
+        <section id="contattami">
+            <h2>Contattami</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" class="form-control" placeholder="Il tuo nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" class="form-control" placeholder="nome@esempio.it">
+                </div>
+                <div class="form-group">
+                    <label for="reason">Motivo del contatto:</label>
+                    <select id="reason" class="form-control">
+                        <option value="lavoro">Proposta di lavoro</option>
+                        <option value="info">Richiesta informazioni</option>
+                        <option value="saluto">Semplice saluto</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Data preferita per la risposta:</label>
+                    <input type="date" id="date" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="message">Messaggio:</label>
+                    <textarea id="message" class="form-control" rows="5"
+                        placeholder="Scrivi qui il tuo messaggio..."></textarea>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="consent" required>
+                    <label for="consent">Accetto di essere ricontattato all'indirizzo indicato</label>
+                </div>
+                <button type="submit" class="btn-submit"> Invia</button>
+            </form>
+        </section>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="social-icons">
+            <a href="#" class="social-icon">H</a>
+            <a href="#" class="social-icon">I</a>
+            <a href="#" class="social-icon">F</a>
+        </div>
+        <p>&copy; 2026 Carmine Ruggiero - Condividi le prove ed esercizi della prima settimana solo con i tuoi tutor</p>
+    </footer>
+
+</body>
+
+</html>
